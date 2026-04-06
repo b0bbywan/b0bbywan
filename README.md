@@ -13,11 +13,13 @@ A personal setup maintained in production for 6 years, turned into a complete in
 | [go-odio-api](https://github.com/b0bbywan/go-odio-api) | Go REST API — D-Bus, PulseAudio, Bluetooth, MPRIS, systemd, Zeroconf, SSE |
 | [odio-ha](https://github.com/b0bbywan/odio-ha) | Home Assistant integration — async SSE, MPRIS/D-Bus, Zeroconf |
 | [odios](https://github.com/b0bbywan/odios) | Ansible installer — playbooks, roles, multi-arch CI/CD |
-| [odio-pwa](https://github.com/b0bbywan/odio-pwa) | Progressive Web App — Svelte 5, SSE real-time |
+| [odio-pwa](https://github.com/b0bbywan/odio-pwa) | Progressive Web App — Svelte 5, SSE real-time, [pwa.odio.love](https://pwa.odio.love) |
 | [go-mpd-discplayer](https://github.com/b0bbywan/go-mpd-discplayer) | Go daemon — udev, MPD, CD/USB autoplay, Debian packaging |
 | [go-cd-cuer](https://github.com/b0bbywan/go-cd-cuer) | Go CLI — CD metadata via GNUDB/MusicBrainz |
+| [go-odio-notify](https://github.com/b0bbywan/go-odio-notify) | Go notification library — PulseAudio, pure Go, embedded sounds |
 | [odio-apt-repo](https://github.com/b0bbywan/odio-apt-repo) | Debian APT repository — GitHub Actions, reprepro, GPG, multi-arch |
-| [odio.love](https://github.com/b0bbywan/odio.love) | Landing page — Astro + Svelte + Tailwind |
+| [odio.love](https://github.com/b0bbywan/odio.love) | Landing page — Astro + Svelte + Tailwind, [odio.love](https://odio.love) |
+| [odio-docs](https://github.com/b0bbywan/odio-docs) | Documentation site — Starlight, Astro, [docs.odio.love](https://docs.odio.love) |
 
 ## Stack
 

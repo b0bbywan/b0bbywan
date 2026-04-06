@@ -1,6 +1,4 @@
-# Hey, I'm Mathieu
-
-Senior R&D Engineer from Lille, France. 15 years in tech startups (gaming, SaaS, IoT, robotics, logistics). My background is in systems and infrastructure. DevOps culture shaped the way I write code: what I ship is built to run in production, deploy cleanly, and last.
+> Senior R&D Engineer from Lille, France. 15 years in tech startups (gaming, SaaS, IoT, robotics, logistics). My background is in systems and infrastructure. DevOps culture shaped the way I write code: what I ship is built to run in production, deploy cleanly, and last.
 
 ## What I'm working on
 

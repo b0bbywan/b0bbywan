@@ -2,13 +2,13 @@
 
 ## What I'm working on
 
-**[odio](https://beta.odio.love)** — An open source audio streaming platform for Linux. Turns any machine (even a 2014 Raspberry Pi B+) into a full multi-room streamer: Bluetooth, AirPlay, Spotify Connect, UPnP/DLNA, CD playback. No cloud, no account, no subscription.
+**[odio](https://beta.odio.love)** — An open source audio streaming platform for Linux. Turns any machine (even a 2012 Raspberry Pi B) into a full multi-room streamer: Bluetooth, AirPlay, Spotify Connect, UPnP/DLNA, CD playback. No cloud, no account, no subscription.
 
 A personal setup maintained in production for 6 years, turned into a complete installable product in 3 months.
 
 | Repository | Description |
 |---|---|
-| [go-odio-api](https://github.com/b0bbywan/go-odio-api) | Go REST API — D-Bus, PulseAudio, Bluetooth, MPRIS, systemd, Zeroconf, SSE, embed HTMX/Tailwind |
+| [go-odio-api](https://github.com/b0bbywan/go-odio-api) | Go REST API — D-Bus, PulseAudio, Bluetooth, MPRIS, systemd, Zeroconf, SSE, embed HTMX/Tailwind, multi-arch CI/CD, Debian packaging |
 | [odio-ha](https://github.com/b0bbywan/odio-ha) | Home Assistant integration — Zeroconf, async SSE, native HA entities for each odio-api feature, HACS |
 | [odios](https://github.com/b0bbywan/odios) | odio Streamer — Raspberry images, Ansible playbooks, curl | bash install, multi-arch CI/CD |
 | [odio-pwa](https://github.com/b0bbywan/odio-pwa) | [Progressive Web App](https://pwa.odio.love) — Svelte 5, SSE real-time, iframe |

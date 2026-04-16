@@ -24,7 +24,7 @@ A personal setup maintained in production for 6 years, turned into a complete in
 Go · Python · Linux · Ansible · Docker · PostgreSQL · Prometheus · Grafana · GitHub Actions · Debian packaging
 
 ## Elsewhere
-
+- [Discord](https://discord.gg/U9PyJMGg) — odio discord
 - [Malt](https://malt.fr/profile/mathieurequillart1) — Freelance profile
 - [odio.love](https://beta.odio.love) — Project showcase
 - [Medium](https://medium.com/@mrequillart) — multi-part series on Linux audio with Raspberry Pi

@@ -34,22 +34,41 @@
 
 ## What I'm working on
 
-**[odio](https://beta.odio.love)** — An open source multimedia self-hosted platform for Linux. odio turns any machine (even a 2012 Raspberry Pi B) into a full multi-room streamer: Bluetooth, AirPlay, Spotify Connect, UPnP/DLNA, CD playback. No cloud, no account, no subscription. A custom version of [odiotv](https://docs.odio.love/guides/use-case-htpc/) also exist in my setup.
+### [odio](https://beta.odio.love) — an open source audio streaming platform for Linux
 
-A personal setup maintained in production for 6 years, turned into a complete installable product in 3 months.
+Turns any machine (even a 2012 Raspberry Pi B) into a full multi-room streamer: Bluetooth, AirPlay, Spotify Connect, UPnP/DLNA, CD playback. **No cloud, no account, no subscription.**
+
+*A personal setup maintained in production for 6 years, turned into a complete installable product in 3 months.*
+
+<p align="center">
+  <img src="https://odio.love/screenshots/embedded-ui.png" alt="odio embedded web UI — full dashboard" width="48%">
+  <img src="https://odio.love/screenshots/pwa-instances.png" alt="odio PWA — multi-node management" width="48%">
+</p>
+
+### Why odio is different
+
+- **Runs in your systemd user session. Not as root.** No exclusive audio locks, no sudo-minefield.
+- **All sources share one PulseAudio mixer.** MPD, shairport-sync, Snapclient, Bluetooth — you don't select a source, you just play.
+- **API-first.** The REST API *is* the product; the web UI is just one client. Drives Home Assistant, the PWA, your shell, whatever you wire up.
+- **Source-agnostic via MPRIS + D-Bus.** New players integrate without custom code.
+- **Your streamer isn't a precious appliance — it's a reproducible host.** One command installs or reinstalls it. Safe to poke at, safe to break.
+
+More on the philosophy: [how it works](https://docs.odio.love/guides/how-it-works/)
+
+### Repositories
 
 | Repository | Stack | Description |
 |---|---|---|
-| [go-odio-api](https://github.com/b0bbywan/go-odio-api) | ![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white) | Go REST API — D-Bus, PulseAudio, Bluetooth, MPRIS, systemd, Zeroconf, SSE, embed HTMX/Tailwind, multi-arch CI/CD, Debian packaging |
+| [go-odio-api](https://github.com/b0bbywan/go-odio-api) | ![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white) | REST API — D-Bus, PulseAudio, Bluetooth, MPRIS, systemd, Zeroconf, SSE, embed HTMX/Tailwind, multi-arch CI/CD, Debian packaging |
 | [odio-ha](https://github.com/b0bbywan/odio-ha) | ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) | Home Assistant integration — Zeroconf, async SSE, native HA entities for each odio-api feature, HACS |
-| [odios](https://github.com/b0bbywan/odios) | ![Ansible](https://img.shields.io/badge/Ansible-EE0000?logo=ansible&logoColor=white) | odio Streamer — Raspberry images, Ansible playbooks, curl \| bash install, multi-arch CI/CD |
-| [odio-pwa](https://github.com/b0bbywan/odio-pwa) | ![Svelte](https://img.shields.io/badge/Svelte-FF3E00?logo=svelte&logoColor=white) | [Progressive Web App](https://pwa.odio.love) — Svelte 5, SSE real-time, iframe |
-| [go-mpd-discplayer](https://github.com/b0bbywan/go-mpd-discplayer) | ![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white) | Go + CGo daemon — udev, MPD, CD/USB autoplay, multi-arch, Debian packaging |
-| [go-disc-cuer](https://github.com/b0bbywan/go-disc-cuer) | ![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white) | Go + CGo Lib/CLI — CD metadata via GNUDB/MusicBrainz |
-| [go-odio-notify](https://github.com/b0bbywan/go-odio-notify) | ![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white) | Go notification library — PulseAudio, pure Go, embedded sounds |
-| [odio-apt-repo](https://github.com/b0bbywan/odio-apt-repo) | ![Debian](https://img.shields.io/badge/Debian-A81D33?logo=debian&logoColor=white) | Debian APT repository — GitHub Actions, reprepro, GPG, multi-arch |
-| [odio.love](https://github.com/b0bbywan/odio.love) | ![Astro](https://img.shields.io/badge/Astro-BC52EE?logo=astro&logoColor=white) | [Landing page](https://odio.love) — Astro + Svelte + Tailwind |
-| [odio-docs](https://github.com/b0bbywan/odio-docs) | ![Astro](https://img.shields.io/badge/Astro-BC52EE?logo=astro&logoColor=white) | [Documentation site](https://docs.odio.love) — Starlight, Astro |
+| [odios](https://github.com/b0bbywan/odios) | ![Ansible](https://img.shields.io/badge/Ansible-EE0000?logo=ansible&logoColor=white) | odio Streamer — Raspberry images, playbooks, curl \| bash install, multi-arch CI/CD |
+| [odio-pwa](https://github.com/b0bbywan/odio-pwa) | ![Svelte](https://img.shields.io/badge/Svelte-FF3E00?logo=svelte&logoColor=white) | [Progressive Web App](https://pwa.odio.love) — SSE real-time, iframe |
+| [go-mpd-discplayer](https://github.com/b0bbywan/go-mpd-discplayer) | ![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white) | CGo daemon — udev, MPD, CD/USB autoplay, multi-arch, Debian packaging |
+| [go-disc-cuer](https://github.com/b0bbywan/go-disc-cuer) | ![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white) | CGo Lib/CLI — CD metadata via GNUDB/MusicBrainz |
+| [go-odio-notify](https://github.com/b0bbywan/go-odio-notify) | ![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white) | Notification library — PulseAudio, pure Go, embedded sounds |
+| [odio-apt-repo](https://github.com/b0bbywan/odio-apt-repo) | ![Debian](https://img.shields.io/badge/Debian-A81D33?logo=debian&logoColor=white) | APT repository — GitHub Actions, reprepro, GPG, multi-arch |
+| [odio.love](https://github.com/b0bbywan/odio.love) | ![Astro](https://img.shields.io/badge/Astro-BC52EE?logo=astro&logoColor=white) | [Landing page](https://odio.love) — Svelte + Tailwind |
+| [odio-docs](https://github.com/b0bbywan/odio-docs) | ![Astro](https://img.shields.io/badge/Astro-BC52EE?logo=astro&logoColor=white) | [Documentation site](https://docs.odio.love) — Starlight |
 
 
   ## Activity                                                                                                                                                                                                       

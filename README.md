@@ -34,7 +34,7 @@
 
 ## What I'm working on
 
-**[odio](https://beta.odio.love)** — An open source multimedia self-hosted platform for Linux. odio turns any machine (even a 2012 Raspberry Pi B) into a full multi-room streamer: Bluetooth, AirPlay, Spotify Connect, UPnP/DLNA, CD playback. No cloud, no account, no subscription. An custom version of [odiotv](https://docs.odio.love/guides/use-case-htpc/) also exist in my setup.
+**[odio](https://beta.odio.love)** — An open source multimedia self-hosted platform for Linux. odio turns any machine (even a 2012 Raspberry Pi B) into a full multi-room streamer: Bluetooth, AirPlay, Spotify Connect, UPnP/DLNA, CD playback. No cloud, no account, no subscription. A custom version of [odiotv](https://docs.odio.love/guides/use-case-htpc/) also exist in my setup.
 
 A personal setup maintained in production for 6 years, turned into a complete installable product in 3 months.
 

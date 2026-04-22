@@ -1,5 +1,20 @@
 > Senior R&D Engineer from Lille, France. 15 years in tech startups (gaming, SaaS, IoT, robotics, logistics). My background is in systems and infrastructure. DevOps culture shaped the way I write code: what I ship is built to run in production, deploy cleanly, and last.
 
+## Stack
+
+  <p align="center">
+  <a href="https://go.dev/"><img src="https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white" alt="Go" /></a>
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python" /></a>
+  <a href="https://www.kernel.org/"><img src="https://img.shields.io/badge/Linux-000000?logo=linux&logoColor=white" alt="Linux" /></a>
+  <a href="https://www.ansible.com/"><img src="https://img.shields.io/badge/Ansible-EE0000?logo=ansible&logoColor=white" alt="Ansible" /></a>
+  <a href="https://www.docker.com/"><img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" alt="Docker" /></a>
+  <a href="https://www.postgresql.org/"><img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white" alt="PostgreSQL" /></a>
+  <a href="https://prometheus.io/"><img src="https://img.shields.io/badge/Prometheus-E6522C?logo=prometheus&logoColor=white" alt="Prometheus" /></a>
+  <a href="https://grafana.com/"><img src="https://img.shields.io/badge/Grafana-F46800?logo=grafana&logoColor=white" alt="Grafana" /></a>
+  <a href="https://github.com/features/actions"><img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=githubactions&logoColor=white" alt="GitHub Actions" /></a>
+  <a href="https://www.debian.org/doc/manuals/maint-guide/"><img src="https://img.shields.io/badge/Debian%20packaging-A81D33?logo=debian&logoColor=white" alt="Debian packaging" /></a>  
+  </p>
+
 ## What I'm working on
 
 **[odio](https://beta.odio.love)** — An open source audio streaming platform for Linux. Turns any machine (even a 2012 Raspberry Pi B) into a full multi-room streamer: Bluetooth, AirPlay, Spotify Connect, UPnP/DLNA, CD playback. No cloud, no account, no subscription.
@@ -37,20 +52,6 @@ A personal setup maintained in production for 6 years, turned into a complete in
   alt="forks" /></a>
   </p>  
 
-## Stack
-
-  <p align="center">
-  <a href="https://go.dev/"><img src="https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white" alt="Go" /></a>
-  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python" /></a>
-  <a href="https://www.kernel.org/"><img src="https://img.shields.io/badge/Linux-000000?logo=linux&logoColor=white" alt="Linux" /></a>
-  <a href="https://www.ansible.com/"><img src="https://img.shields.io/badge/Ansible-EE0000?logo=ansible&logoColor=white" alt="Ansible" /></a>
-  <a href="https://www.docker.com/"><img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" alt="Docker" /></a>
-  <a href="https://www.postgresql.org/"><img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white" alt="PostgreSQL" /></a>
-  <a href="https://prometheus.io/"><img src="https://img.shields.io/badge/Prometheus-E6522C?logo=prometheus&logoColor=white" alt="Prometheus" /></a>
-  <a href="https://grafana.com/"><img src="https://img.shields.io/badge/Grafana-F46800?logo=grafana&logoColor=white" alt="Grafana" /></a>
-  <a href="https://github.com/features/actions"><img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=githubactions&logoColor=white" alt="GitHub Actions" /></a>
-  <a href="https://www.debian.org/doc/manuals/maint-guide/"><img src="https://img.shields.io/badge/Debian%20packaging-A81D33?logo=debian&logoColor=white" alt="Debian packaging" /></a>  
-  </p>
 
 ## Elsewhere
   <p align="center">

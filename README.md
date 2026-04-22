@@ -6,13 +6,30 @@
   <a href="https://go.dev/"><img src="https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white" alt="Go" /></a>
   <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python" /></a>
   <a href="https://www.kernel.org/"><img src="https://img.shields.io/badge/Linux-000000?logo=linux&logoColor=white" alt="Linux" /></a>
+  <a href="https://www.gnu.org/software/bash/"><img src="https://img.shields.io/badge/Bash-4EAA25?logo=gnubash&logoColor=white" alt="Bash" /></a>
   <a href="https://www.ansible.com/"><img src="https://img.shields.io/badge/Ansible-EE0000?logo=ansible&logoColor=white" alt="Ansible" /></a>
   <a href="https://www.docker.com/"><img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" alt="Docker" /></a>
   <a href="https://www.postgresql.org/"><img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white" alt="PostgreSQL" /></a>
   <a href="https://prometheus.io/"><img src="https://img.shields.io/badge/Prometheus-E6522C?logo=prometheus&logoColor=white" alt="Prometheus" /></a>
   <a href="https://grafana.com/"><img src="https://img.shields.io/badge/Grafana-F46800?logo=grafana&logoColor=white" alt="Grafana" /></a>
+  <a href="https://aws.amazon.com/"><img src="https://img.shields.io/badge/AWS-232F3E?logo=amazonwebservices&logoColor=white" alt="AWS" /></a>
   <a href="https://github.com/features/actions"><img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?logo=githubactions&logoColor=white" alt="GitHub Actions" /></a>
-  <a href="https://www.debian.org/doc/manuals/maint-guide/"><img src="https://img.shields.io/badge/Debian%20packaging-A81D33?logo=debian&logoColor=white" alt="Debian packaging" /></a>  
+  <a href="https://www.debian.org/doc/manuals/maint-guide/"><img src="https://img.shields.io/badge/Debian%20packaging-A81D33?logo=debian&logoColor=white" alt="Debian packaging" /></a>
+  <a href="https://claude.com/claude-code"><img src="https://img.shields.io/badge/Claude%20Code-D97757?logo=claude&logoColor=white" alt="Claude Code" /></a>
+  </p>
+
+  <p align="center"><sub><em>minor stack</em></sub></p>
+
+  <p align="center">
+  <a href="https://www.home-assistant.io/"><img src="https://img.shields.io/badge/Home%20Assistant-18BCF2?logo=homeassistant&logoColor=white" alt="Home Assistant" /></a>
+  <a href="https://hacs.xyz/"><img src="https://img.shields.io/badge/HACS-41BDF5?logo=homeassistantcommunitystore&logoColor=white" alt="HACS" /></a>
+  <a href="https://www.musicpd.org/"><img src="https://img.shields.io/badge/MPD-A92E37" alt="MPD" /></a>
+  <a href="https://www.freedesktop.org/wiki/Software/PulseAudio/"><img src="https://img.shields.io/badge/PulseAudio-2E3436?logo=pulseaudio&logoColor=white" alt="PulseAudio" /></a>
+  <a href="https://htmx.org/"><img src="https://img.shields.io/badge/htmx-3366CC?logo=htmx&logoColor=white" alt="htmx" /></a>
+  <a href="https://tailwindcss.com/"><img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?logo=tailwindcss&logoColor=white" alt="Tailwind CSS" /></a>
+  <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" alt="TypeScript" /></a>
+  <a href="https://vitejs.dev/"><img src="https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white" alt="Vite" /></a>
+  <a href="https://vercel.com/"><img src="https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white" alt="Vercel" /></a>
   </p>
 
 ## What I'm working on
@@ -21,18 +38,18 @@
 
 A personal setup maintained in production for 6 years, turned into a complete installable product in 3 months.
 
-| Repository | Description |
-|---|---|
-| [go-odio-api](https://github.com/b0bbywan/go-odio-api) | Go REST API — D-Bus, PulseAudio, Bluetooth, MPRIS, systemd, Zeroconf, SSE, embed HTMX/Tailwind, multi-arch CI/CD, Debian packaging |
-| [odio-ha](https://github.com/b0bbywan/odio-ha) | Home Assistant integration — Zeroconf, async SSE, native HA entities for each odio-api feature, HACS |
-| [odios](https://github.com/b0bbywan/odios) | odio Streamer — Raspberry images, Ansible playbooks, curl | bash install, multi-arch CI/CD |
-| [odio-pwa](https://github.com/b0bbywan/odio-pwa) | [Progressive Web App](https://pwa.odio.love) — Svelte 5, SSE real-time, iframe |
-| [go-mpd-discplayer](https://github.com/b0bbywan/go-mpd-discplayer) | Go + CGo daemon — udev, MPD, CD/USB autoplay, multi-arch, Debian packaging |
-| [go-disc-cuer](https://github.com/b0bbywan/go-disc-cuer) | Go + CGo Lib/CLI — CD metadata via GNUDB/MusicBrainz |
-| [go-odio-notify](https://github.com/b0bbywan/go-odio-notify) | Go notification library — PulseAudio, pure Go, embedded sounds |
-| [odio-apt-repo](https://github.com/b0bbywan/odio-apt-repo) | Debian APT repository — GitHub Actions, reprepro, GPG, multi-arch |
-| [odio.love](https://github.com/b0bbywan/odio.love) | [Landing page](https://odio.love) — Astro + Svelte + Tailwind |
-| [odio-docs](https://github.com/b0bbywan/odio-docs) | [Documentation site](https://docs.odio.love) — Starlight, Astro |
+| Repository | Stack | Description |
+|---|---|---|
+| [go-odio-api](https://github.com/b0bbywan/go-odio-api) | ![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white) | Go REST API — D-Bus, PulseAudio, Bluetooth, MPRIS, systemd, Zeroconf, SSE, embed HTMX/Tailwind, multi-arch CI/CD, Debian packaging |
+| [odio-ha](https://github.com/b0bbywan/odio-ha) | ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) | Home Assistant integration — Zeroconf, async SSE, native HA entities for each odio-api feature, HACS |
+| [odios](https://github.com/b0bbywan/odios) | ![Ansible](https://img.shields.io/badge/Ansible-EE0000?logo=ansible&logoColor=white) | odio Streamer — Raspberry images, Ansible playbooks, curl \| bash install, multi-arch CI/CD |
+| [odio-pwa](https://github.com/b0bbywan/odio-pwa) | ![Svelte](https://img.shields.io/badge/Svelte-FF3E00?logo=svelte&logoColor=white) | [Progressive Web App](https://pwa.odio.love) — Svelte 5, SSE real-time, iframe |
+| [go-mpd-discplayer](https://github.com/b0bbywan/go-mpd-discplayer) | ![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white) | Go + CGo daemon — udev, MPD, CD/USB autoplay, multi-arch, Debian packaging |
+| [go-disc-cuer](https://github.com/b0bbywan/go-disc-cuer) | ![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white) | Go + CGo Lib/CLI — CD metadata via GNUDB/MusicBrainz |
+| [go-odio-notify](https://github.com/b0bbywan/go-odio-notify) | ![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white) | Go notification library — PulseAudio, pure Go, embedded sounds |
+| [odio-apt-repo](https://github.com/b0bbywan/odio-apt-repo) | ![Debian](https://img.shields.io/badge/Debian-A81D33?logo=debian&logoColor=white) | Debian APT repository — GitHub Actions, reprepro, GPG, multi-arch |
+| [odio.love](https://github.com/b0bbywan/odio.love) | ![Astro](https://img.shields.io/badge/Astro-BC52EE?logo=astro&logoColor=white) | [Landing page](https://odio.love) — Astro + Svelte + Tailwind |
+| [odio-docs](https://github.com/b0bbywan/odio-docs) | ![Astro](https://img.shields.io/badge/Astro-BC52EE?logo=astro&logoColor=white) | [Documentation site](https://docs.odio.love) — Starlight, Astro |
 
 
   ## Activity                                                                                                                                                                                                       

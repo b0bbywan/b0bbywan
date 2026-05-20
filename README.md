@@ -34,7 +34,7 @@
 
 ## What I'm working on
 
-### [odio](https://beta.odio.love) — an open source audio streaming platform for Linux
+### [odio](https://odio.love) — an open source audio streaming platform for Linux
 
 Turns any machine (even a 2012 Raspberry Pi B) into a full multi-room streamer: Bluetooth, AirPlay, Spotify Connect, UPnP/DLNA, CD playback. **No cloud, no account, no subscription.**
 
@@ -59,11 +59,13 @@ More on the philosophy: [how it works](https://docs.odio.love/guides/how-it-work
 
 | Repository | Stack | Description |
 |---|---|---|
-| [go-odio-api](https://github.com/b0bbywan/go-odio-api) | ![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white) | REST API — D-Bus, PulseAudio, Bluetooth, MPRIS, systemd, Zeroconf, SSE, embed HTMX/Tailwind, multi-arch CI/CD, Debian packaging |
-| [odio-ha](https://github.com/b0bbywan/odio-ha) | ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) | Home Assistant integration — Zeroconf, async SSE, native HA entities for each odio-api feature, HACS |
 | [odios](https://github.com/b0bbywan/odios) | ![Ansible](https://img.shields.io/badge/Ansible-EE0000?logo=ansible&logoColor=white) | odio Streamer — Raspberry images, playbooks, curl \| bash install, multi-arch CI/CD |
+| [go-odio-api](https://github.com/b0bbywan/go-odio-api) | ![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white) | REST API — D-Bus, PulseAudio, Bluetooth, MPRIS, systemd, Zeroconf, SSE, embed HTMX/Tailwind, multi-arch CI/CD, Debian packaging |
 | [odio-pwa](https://github.com/b0bbywan/odio-pwa) | ![Svelte](https://img.shields.io/badge/Svelte-FF3E00?logo=svelte&logoColor=white) | [Progressive Web App](https://pwa.odio.love) — SSE real-time, iframe |
+| [odio-ha](https://github.com/b0bbywan/odio-ha) | ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) | Home Assistant integration — Zeroconf, async SSE, native HA entities for each odio-api feature, HACS |
 | [go-mpd-discplayer](https://github.com/b0bbywan/go-mpd-discplayer) | ![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white) | CGo daemon — udev, MPD, CD/USB autoplay, multi-arch, Debian packaging |
+| [snapclientmpris](https://github.com/b0bbywan/snapclientmpris) | ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) | MPRIS2 bridge for Snapcast — async D-Bus, dbus-fast, Zeroconf, systemd, Debian packaging |
+| [mpDris2](https://github.com/b0bbywan/mpDris2) | ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) | MPRIS2 bridge for MPD — asyncio + dbus-fast rewrite, python-mpd2, systemd |
 | [go-disc-cuer](https://github.com/b0bbywan/go-disc-cuer) | ![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white) | CGo Lib/CLI — CD metadata via GNUDB/MusicBrainz |
 | [go-odio-notify](https://github.com/b0bbywan/go-odio-notify) | ![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white) | Notification library — PulseAudio, pure Go, embedded sounds |
 | [odio-apt-repo](https://github.com/b0bbywan/odio-apt-repo) | ![Debian](https://img.shields.io/badge/Debian-A81D33?logo=debian&logoColor=white) | APT repository — GitHub Actions, reprepro, GPG, multi-arch |

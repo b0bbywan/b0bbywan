@@ -93,7 +93,6 @@ More on the philosophy: [how it works](https://docs.odio.love/guides/how-it-work
 
 ## Elsewhere
   <p align="center">
-  <a href="https://discord.gg/U9PyJMGg"><img src="https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=white" alt="odio Discord" /></a>
   <a href="https://malt.fr/profile/mathieurequillart1"><img src="https://img.shields.io/badge/Malt-FC5757" alt="Malt freelance profile" /></a>
   <a href="https://medium.com/@mathieu-requillart"><img src="https://img.shields.io/badge/Medium-000000?logo=medium&logoColor=white" alt="Medium" /></a>
   <a href="https://odio.love"><img src="https://img.shields.io/badge/odio.love-5ab81e" alt="odio.love project showcase" /></a>
